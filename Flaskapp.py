@@ -15,7 +15,7 @@ categories = [
 # Function to generate a random transaction
 def generate_random_transaction():
     category = random.choice(categories)
-    merchant_names = ["Merchant A", "Merchant B", "Merchant C", "Merchant D"]
+    merchant_names = ["Amazon", "Whole Foods", "Starbucks", "LinkedIn", "Netflix", "Chevron", "Apple", "Bluecross Blueshield", "One world children's fund", "airbnb","Morgan Stanely"]
     merchant_name = random.choice(merchant_names)
     amount = round(random.uniform(5.0, 500.0), 2)
     transaction_date = datetime.now() - timedelta(days=random.randint(0, 30))
